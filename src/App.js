@@ -39,7 +39,7 @@ const App = () =>{
   //type=== -1 decrease the quantity
   //type=== 1 increse the quantity
   const handleQueue = (id, type) =>{
-    console.log({id, type});
+    //console.log({id, type});
     setEventQueue({
       id,
       type
